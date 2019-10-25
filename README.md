@@ -4,7 +4,7 @@
  - For a given classification model, if you're fine even if the required result is in the top three results instead of just the result predicted by the model
  - Implies, if a1,a2,a3...a100 are the classes you have for the target variable
  - If the required result is the third best according to the model probability and still if you want to flag that as successful prediction,
- - You may simply provide the model with
+ - You may simply provide the function with
    - model = any classification model from scikit-learn
    - X_test = independent variables
    - y_test = The correct labels for the record
