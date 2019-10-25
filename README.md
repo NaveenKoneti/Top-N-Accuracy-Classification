@@ -5,7 +5,7 @@
  - Implies, if a1,a2,a3...a100 are the classes you have for the target variable
  - If the required result is the third best according to the model probability and still if you want to flag that as successful prediction,
  - You may simply provide the function with
-   - model = any classification model from scikit-learn
+   - model = any classification model from scikit-learn that you have created
    - X_test = independent variables
    - y_test = The correct labels for the record
    - n_value = 3/4/5 etc any number less than number of categories in class variable 
